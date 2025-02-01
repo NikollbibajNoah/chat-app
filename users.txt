@@ -1,0 +1,9 @@
+User 1:
+    username: admin
+    password: admin
+User 2:
+    username: noah
+    password: admin
+User 3:
+    username: john
+    password: admin

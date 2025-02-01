@@ -1,0 +1,28 @@
+
+GET http://localhost:3000/chat
+
+###
+
+POST http://localhost:3000/chat
+Content-Type: application/json
+
+{
+    "message": "Hello",
+    "username": "John"
+}
+###
+
+POST http://localhost:3000/bannedusers
+Content-Type: application/json
+
+{
+    "username": "John"
+}
+
+### Get all banned users 
+ 
+GET http://localhost:3000/bannedusers
+
+### Clear Table banned users
+
+DELETE  http://localhost:3000/bannedusers
