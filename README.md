@@ -1,6 +1,6 @@
-# Chat-App
+# Chat-App 
 
-## Einführung
+## Einführung 
 
 Diese Chat-Anwendung wurde mit Docker erstellt und ermöglicht eine effiziente Echtzeit-Kommunikation über einen Chat-Services.
 
@@ -21,14 +21,14 @@ Diese Chat-Anwendung wurde mit Docker erstellt und ermöglicht eine effiziente E
 - `Scratches and Consoles/`: Ein Verzeichnis, das von JetBrains IDEs verwendet wird für temporäre Dateien, Prototypen und experimentellen Code.# Chat-App
 
 
-## Pipeline
+## Pipeline 🧑‍🏭
 
 Unser Entwicklungsprozess folgt einer CI/CD-Pipeline:
 1. **Continuous Integration**: Sobald Änderungen im Quellcode vorgenommen und im Repository gepusht wurden, werden automatisch Tests durchgeführt. Dies stellt sicher, dass jede Änderung den Qualitätsstandards entspricht.
 2. **Continuous Delivery**: Nach jedem erfolgreichen Integrationsschritt wird die Anwendung automatisch in die Staging-Umgebung deployt, wo sie für zusätzliche Tests und Qualitätssicherung bereitsteht.
 3. **Continuous Deployment**: Sobald Änderungen in der Staging-Umgebung validiert wurden, wird die Anwendung automatisch in die Produktionsumgebung deployt.
 
-## Verwendete Tools
+## Verwendete Tools 🧰
 
 Das Projekt verwendet die folgenden Werkzeuge:
 
@@ -67,6 +67,8 @@ Bevor Sie dieses Projekt ausführen, stellen Sie sicher, dass Docker auf Ihrem S
     ```bash
     npm run dev
     ```
+
+    Zusätzlich um die anderen benötigten Services zu starten, müssen jeweils in den Ordnern den Befehl `npm start` eingegeben werden.
 
 6. Folgen Sie den Instruktionen im Setup-Prozess, um einen Master-Benutzer zu erstellen.
 
