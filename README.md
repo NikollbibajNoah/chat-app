@@ -46,7 +46,7 @@ Bevor Sie dieses Projekt ausführen, stellen Sie sicher, dass Docker auf Ihrem S
 3. Führen Sie den folgenden Befehl aus, um die Docker-Container aufzubauen und zu starten:
 
     ```bash
-    docker-compose up
+    docker-compose up -d --build
     ```
 
 4. Während Docker läuft, öffnen Sie ein neues Terminalfenster und navigieren Sie zu den `frontend`, `backend` und `chat-service` Verzeichnissen jeweils und führen Sie den folgenden Befehl aus, um die Abhängigkeiten zu installieren:
