@@ -13,7 +13,5 @@ EXPOSE 8080
 
 ENTRYPOINT ["/opt/keycloak/bin/kc.sh"]
 
-# Start Keycloak in development mode
-CMD ["start-dev", "--http-port=8080"]
-
-
+# Start Keycloak in normal mode and bind to 0.0.0.0
+CMD ["start", "--http-port=8080", "--hostname-strict=false", "--hostname-strict-https=false", "--hostname=0.0.0.0"]
