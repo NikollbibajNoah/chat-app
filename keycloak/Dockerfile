@@ -11,7 +11,8 @@ ENV KEYCLOAK_ADMIN_PASSWORD=adminpassword
 # Expose port
 EXPOSE 8080
 
+
 # Start Keycloak in development mode
-CMD ["/opt/keycloak/bin/kc.sh", "start", "--http-port=8080", "--optimized"]
+CMD ["/opt/keycloak/bin/kc.sh", "start-dev", "--http-port=8080"]
 
 
